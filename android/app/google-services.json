@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "445417335495",
+    "firebase_url": "https://wallbeks.firebaseio.com",
+    "project_id": "wallbeks",
+    "storage_bucket": "wallbeks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445417335495:android:e310eb1407069b64feace2",
+        "android_client_info": {
+          "package_name": "io.aliarain.wallbeks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445417335495-ihp5pp7b6gvkq1jn5gvorbpf95r2qi9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.aliarain.wallbeks",
+            "certificate_hash": "c7e022f730fe6aa848ebcae78d32fefef27639cb"
+          }
+        },
+        {
+          "client_id": "445417335495-2aa0o5ps8scmc3qrkgqkm9k06ni2vrca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmsJENl399NnB0whHNwEt5cARCafELo-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445417335495-2aa0o5ps8scmc3qrkgqkm9k06ni2vrca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
