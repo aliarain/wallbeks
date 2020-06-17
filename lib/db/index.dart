@@ -107,6 +107,26 @@ class ImgDB{
       where: '1'
     );
   }
+  
+  Future<int> getAllRecentImages({int limit}) async {
+    final dbClient = await db;
+    final maps = await (
+      limit != null ? dbClient.query(
+        tableRecent,
+        orderBy: 'dateTime(viewTime) DESC',
+        limit: limit
+      ) : 
+      dbClient.query(
+        tableRecent,
+        orderBy: 'dateTime(viewTime) DESC'
+      )
+    );
+
+    return maps
+        .map((json) => ImageModel.fromJson(id: json['id'], json: json))
+        .toList();
+  }
+
   Future<ImageModel> getRecentImageById(String id) async {
     final dbClient = await db;
     final maps = await dbClient.query(
